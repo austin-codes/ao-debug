@@ -1,0 +1,36 @@
+.signature {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    flex-direction: row;
+    .ao-signature {
+        width: 25%;
+        align-self: center;
+    }
+    .signature-text {
+        width: 70%;
+        align-self: center;
+    }
+}
+
+.ao-logo {
+    max-height: 150px;
+}
+
+.ao-update {
+    background: #fff;
+    p {
+        margin-left: 13px;
+        padding: 5px;
+        border-left: solid 3px #badcab;
+    }
+}
+
+.ao-error {
+    background: #fff;
+    p {
+        margin-left: 13px;
+        padding: 5px;
+        border-left: solid 3px #ad3d3d;
+    }
+}
